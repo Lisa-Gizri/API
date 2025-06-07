@@ -1,0 +1,63 @@
+body {
+    font-family: "Mulish", sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #072c47;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #5c00cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8725ff;
+}
+
+#error {
+    color: red;
+}
+
+#result h2 {
+    margin-top: 40px;
+}
+
+#result p {
+    font-size: 18px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+}
