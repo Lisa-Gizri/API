@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Dictionary Search</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
@@ -16,7 +16,8 @@
         <section class="container"> <!-- Main container for the app interface -->
             <h1>Urban Dictionary Search</h1>
             <form id="searchForm"> <!-- Search form -->
-                <input type="text" id="termInput" placeholder="Enter a term..." required /> <!-- Input for the search term -->
+                <input type="text" id="termInput" placeholder="Enter a term..." required />
+                <!-- Input for the search term -->
                 <button type="submit">Search</button>
             </form>
             <div id="result"></div> <!-- Area to display the result from the API -->
