@@ -1,11 +1,16 @@
+// Get reference to the form and result display area
 const form = document.getElementById("searchForm");
 const resultDiv = document.getElementById("result");
 
+// Listen for form submission
 form.addEventListener("submit", async function (e) {
   e.preventDefault();
+    // Get the search term entered by the user and trim extra spaces
   const term = document.getElementById("termInput").value.trim();
 
+    // Construct the API URL with the search term
   const url = `https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=${encodeURIComponent(term)}`;
+    // Set up API request options, including API key and host
   const options = {
     method: 'GET',
     headers: {
